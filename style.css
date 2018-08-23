@@ -46,6 +46,14 @@ span:hover{
 
 }
 
+@font-face{
+	font-family: 'rainbow';
+	src: url("font/Rainbow.ttf");
+	font-style: normal;
+	font-weight: 100;
+
+}
+
 .show1, .show2, .show3, .show4, .show5, .show6, .show7 {
     background-color: rgba(0,0,0,0.4);
     padding: 20px;
@@ -87,13 +95,13 @@ span:hover{
 
 
 h1{
-	font-family: precious;
+	font-family: rainbow;
 	font-weight: 100;
 	font-size: 50px;
 }
 
 h2{
-	font-family: precious;
+	font-family: rainbow;
 	font-weight: 100;
 	font-size: 40px;
 }
