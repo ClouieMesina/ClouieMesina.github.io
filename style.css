@@ -23,8 +23,9 @@ body{
 	height: 300px;
 }
 p{
-	text-align: justify;
-	text-indent: 50px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
 }
 span:hover{
 	background-color: rgba(0,0,0,.8);
@@ -54,6 +55,12 @@ span:hover{
 
 }
 
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 .show1, .show2, .show3, .show4, .show5, .show6, .show7 {
     background-color: rgba(0,0,0,0.4);
     padding: 20px;
@@ -62,7 +69,7 @@ span:hover{
     font-weight: 100;
 }
     
-.about:hover + .show1 {
+.about:focus + .show1 {
     display: block;
 }
 
@@ -87,7 +94,7 @@ span:hover{
     display: block;
 }
 
-.favprohlang:hover + .show7 {
+.favproglang:hover + .show7 {
     display: block;
 }
 
