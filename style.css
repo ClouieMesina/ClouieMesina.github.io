@@ -2,8 +2,10 @@
 body{
 	margin:0;
 	padding: 0;
-	background-image: url("teal.jpg") ;
+	background-image: url("s.jpg") ;
 	background-size: cover;
+	background-position: center;
+
 }
 
 .box1{
@@ -19,16 +21,35 @@ body{
 }
 .userImg{
 	border-radius: 55%;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 }
-p{
+p, .show5, .show6{
 	text-align: center;
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 20px;
+	font-family: arami;
 }
 span:hover{
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(0,0,0,0);
+}
+
+span {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    font-family: rainbow;
+    border: none;
+    cursor: pointer;
+}
+
+@font-face{
+	font-family: 'arami';
+	src: url("font/aramisi.ttf");
+	font-style: normal;
+	font-weight: 100;
+
 }
 
 @font-face{
@@ -55,21 +76,15 @@ span:hover{
 
 }
 
-.left{
-	float: left;
-}
-.right{
-	float: right;
-}
 .show1, .show2, .show3, .show4, .show5, .show6, .show7 {
     background-color: rgba(0,0,0,0.4);
     padding: 20px;
     display: none;
-    font-family: camille;
+    font-family: arami;
     font-weight: 100;
 }
     
-.about:focus + .show1 {
+.about:hover + .show1 {
     display: block;
 }
 
@@ -104,11 +119,11 @@ span:hover{
 h1{
 	font-family: rainbow;
 	font-weight: 100;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 h2{
 	font-family: rainbow;
 	font-weight: 100;
-	font-size: 40px;
+	font-size: 30px;
 }
