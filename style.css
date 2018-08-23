@@ -1,0 +1,99 @@
+
+body{
+	margin:0;
+	padding: 0;
+	background-image: url("teal.jpg") ;
+	background-size: cover;
+}
+
+.box1{
+	width: 550px;
+	background-color: rgba(0,0,0,0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 7%;
+	margin-bottom: 7%;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+}
+.userImg{
+	border-radius: 55%;
+	width: 300px;
+	height: 300px;
+}
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+span:hover{
+	background-color: rgba(0,0,0,.8);
+}
+
+@font-face{
+	font-family: 'precious';
+	src: url("font/Precious.ttf");
+	font-style: normal;
+	font-weight: 100;
+
+}
+
+@font-face{
+	font-family: 'camille';
+	src: url("font/Camille.ttf");
+	font-style: normal;
+	font-weight: 100;
+
+}
+
+.show1, .show2, .show3, .show4, .show5, .show6, .show7 {
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    display: none;
+    font-family: camille;
+    font-weight: 100;
+}
+    
+.about:hover + .show1 {
+    display: block;
+}
+
+.hobbies:hover + .show2 {
+    display: block;
+}
+
+
+.fcolor:hover + .show3 {
+    display: block;
+}
+
+.ffood:hover + .show4 {
+    display: block;
+}
+
+.whyComsci:hover + .show5 {
+    display: block;
+}
+
+.favsubject:hover + .show6 {
+    display: block;
+}
+
+.favprohlang:hover + .show7 {
+    display: block;
+}
+
+
+
+
+h1{
+	font-family: precious;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+h2{
+	font-family: precious;
+	font-weight: 100;
+	font-size: 40px;
+}
